@@ -1,0 +1,324 @@
+
+//.reabankfile			
+//			
+// Yamaha B200 v1.0
+// by Jeremy Parker		
+// 7-17-22
+//
+// Banks cannot be selected by just the program select function, but sending SYSEX data can do the job.
+// You can copy and paste into ReaControlMIDI's SYSEX window and just change the 4th HEX number to go
+// back and forth between Preset, User, and Card banks to 74, 75, and 76 (banks 1, 2, and 3 respectively).
+// Bank 1 is the Preset Bank, Bank 2 is the User Bank (with my custom sounds) and Bank 3 is the RCD1000
+// ROM voice card.
+//
+// Preset Bank (SYSEX = FO 43 11 24 74 7F)
+Bank 12 15 Bank 1
+
+0 00 Elegant
+1 01 SoftBrass
+2 02 WideString
+3 03 Cosmic
+4 04 LargePipes
+5 05 SynString 1
+6 06 FolkGuitar
+7 07 Piano 1
+8 08 E.Piano 1
+9 09 DistGuitar
+10 10 SoftString
+11 11 SoftString2
+12 12 RichString
+13 13 SynBrass 1
+14 14 SynBrass 2
+15 15 SynBrass 3
+16 16 BrethBrass 1
+17 17 SoftEns.
+18 18 WarmEns.
+19 19 OrchesEns.
+20 20 Sunbeam
+21 21 Shimmer 1
+22 22 SoftCloud
+23 23 Bamarimba
+24 24 Sandarimba
+25 25 FloatChime
+26 26 Daybreak
+27 27 Tinqule
+28 28 SandBell
+29 29 Suspense
+30 30 Fog
+31 31 HuskyVoice
+32 32 Swirlies
+33 33 HuskyChoir
+34 34 PluckBrass
+35 35 AngelChoir
+36 36 FluteVoice
+37 37 SmallPipes
+38 38 E.Organ 1
+39 39 E.Organ 2
+40 40 Piano 2
+41 41 E.Piano 2
+42 42 WireBrass
+43 43 EasyClav
+44 44 FunkyClav
+45 45 Harpsichrd
+46 46 Vibe
+47 47 Celeste
+48 48 TubeBell
+49 49 MusicBox
+50 50 Guitar 1
+51 51 Guitar 2
+52 52 E. Guitar
+53 53 Harp 1 
+54 54 Koto
+55 55 Marimba
+56 56 Violin
+57 57 Cello 1
+58 58 CelloEns.
+59 59 UpriteBass
+60 60 E.Bass 1
+61 61 E.Bass 2
+62 62 SynBass 1
+63 63 SynBass 2
+64 64 SynBass 3
+65 65 SynBass 4
+66 66 SynBass 5
+67 67 NasalLead
+68 68 SolidLead
+69 69 ClariLead
+70 70 Trumpet 1
+71 71 TightBrass
+72 72 Trombone
+73 73 Horn 1
+74 74 Horn 2
+75 75 Sax 1
+76 76 Sax 2
+77 77 Oboe 1
+78 78 Clarinet
+79 79 Flute
+80 80 Recorder
+81 81 Harmonica 1
+82 82 Whistle
+83 83 Castanet
+84 84 Triangle
+85 85 BellTree
+86 86 Referee
+87 87 SteelDrum 1
+88 88 SteelDrum 2
+89 89 Ricochet
+90 90 Zap!
+91 91 Shwhap!
+92 92 PoundWood
+93 93 OilDrum
+94 94 SynSnare
+95 95 DragonHit
+96 96 DuneHit
+97 97 Warp
+98 98 IceAge
+99 99 Encore 
+
+// User Bank JP (SYSEX = FO 43 11 24 75 7F)
+Bank 12 15 Bank 2
+
+0 00 Elegant2
+1 01 SoftBrass2
+2 02 WideString2
+3 03 RattlOrgn1
+4 04 ChaseE.P
+5 05 WhackPad 1
+6 06 FunkGuitar
+7 07 Piano 3
+8 08 E.Piano 1
+9 09 DistOrgan
+10 10 SoftString2
+11 11 SynString3
+12 12 RichString2
+13 13 SynBrass 4
+14 14 SynBrass 2
+15 15 SynBrass 3
+16 16 BrethBras2
+17 17 SoftEns.2
+18 18 Prophet
+19 19 FunkyPluck
+20 20 Sunbeam2
+21 21 Shimmer 2
+22 22 SoftCloud2
+23 23 Bamarimba2
+24 24 Sandarimb2
+25 25 FloatChim2
+26 26 BreathE.P
+27 27 Tinqule
+28 28 RattlOrgn2
+29 29 JuicySynth
+30 30 Mello B
+31 31 StrumVibra
+32 32 PizzE.P
+33 33 MetalChoir
+34 34 Glockensp.
+35 35 JunoPad1
+36 36 PurePad
+37 37 Contmplate
+38 38 E.Organ 3
+39 39 E.Organ 4
+40 40 Piano 3
+41 41 E.Piano 3
+42 42 WireBrass
+43 43 EasyClav2
+44 44 FunkyClav2
+45 45 VibraChime
+46 46 Contmplat2
+47 47 StarStrum
+48 48 PhatSynth
+49 49 ClavSynth
+50 50 JunoPad2
+51 51 Guitar 3
+52 52 E.Guitar 2
+53 53 HarpSynth
+54 54 SwellSynth
+55 55 FM Pluck
+56 56 ViolinTap
+57 57 CelloSynth
+58 58 2020
+59 59 UpriteBas2
+60 60 SpitBass
+61 61 FM Bass
+62 62 WetBass
+63 63 SynBass 2
+64 64 ThwapSynth
+65 65 SynBass 6
+66 66 MassivSnth
+67 67 BrassStab
+68 68 SolidLead2
+69 69 8-BitLead
+70 70 PluckBASS
+71 71 SynBrassy
+72 72 ThumpnBASS
+73 73 PluckBASS2
+74 74 E.P.Synth
+75 75 ClickBass
+76 76 E.P.Synth3
+77 77 SuperSynth2
+78 78 E.P.Synth2
+79 79 Flute
+80 80 SliverSnth
+81 81 Cowbell
+82 82 Whistle2
+83 83 SlowSwell
+84 84 FastSwell
+85 85 Jump!!
+86 86 Hi-Hat 1
+87 87 JunoPad3
+88 88 PhatSynth2
+89 89 Wire E.P.
+90 90 FM-Fatness
+91 91 FM-Fatnes2
+92 92 FM-Fatnes3
+93 93 Kick 2
+94 94 SynSnare2
+95 95 ShwapSynth
+96 96 PickBass
+97 97 NightMare
+98 98 FM Pluck 2
+99 99 Soft FM
+
+// Card Bank RCD1000  (SYSEX = FO 43 11 24 76 7F)
+Bank 12 15 Bank 3
+
+0 00 BEST-BRS
+1 01 GIACO-BRS
+2 02 CAROL-BRS
+3 03 BEYOND-SAX
+4 04 ALTO SAX
+5 05 DAWNVALLEY
+6 06 CHASE-E.P
+7 07 CONFES-E.P
+8 08 WINTER-E.P
+9 09 GIACO-CP
+10 10 SELF CONT
+11 11 STILL-CHORD
+12 12 JUST-GTR
+13 13 COME-CHORD
+14 14 TOGETHER1
+15 15 COME-SEQ1
+16 16 COME-SEQ2
+17 17 THEME2-1
+18 18 THEME2-2
+19 19 THEME2-3
+20 20 THEME2-4
+21 21 WAR-CHORD
+22 22 JUST SEQ-1
+23 23 JUST SEQ-2
+24 24 GET-SEQ
+25 25 GIACO-1
+26 26 GIACO-2
+27 27 BEST-MARB
+28 28 BEST-SEQ1
+29 29 BEST-SEQ2
+30 30 BEYOND-PIZ
+31 31 CAROL-1
+32 32 CAROL-2
+33 33 WAR-SEQ
+34 34 BEYOND-SEQ
+35 35 CHASE-SEQ
+36 36 JUST-INTRO
+37 37 CHASE-INT
+38 38 COME-2
+39 39 ALLRIGHT
+40 40 ANGEL-ORG
+41 41 HERE-ORG
+42 42 KISS-CLAVI
+43 43 TOGETHER 2
+44 44 TOGETHER 3
+45 45 FOOL-HORN
+46 46 STILL LOVE
+47 47 NERV-CHORD
+48 48 SPANISH
+49 49 ASIA-CHORD
+50 50 HUMAN-MELO
+51 51 NEWCENTURY
+52 52 STRINGS-1
+53 53 STRINGS-2
+54 54 TELLINE-ST
+55 55 TM-VIOLIN
+56 56 TM-CELLO
+57 57 TM-PIZZ
+58 58 GET-VOICE
+59 59 CHASE-CHO
+60 60 JUST-VOICE
+61 61 FOOL-VOICE
+62 62 CENT-VOICE
+63 63 SELF-BELL
+64 64 A DAY-BELL
+65 65 STILL-BELL
+66 66 THEME2BELL
+67 67 MARIA-BELL
+68 68 ASIA-BELL
+69 69 CONFES-BELL
+70 70 JUST-BASS
+71 71 COME-BASS
+72 72 BEYONDBASS
+73 73 GIACO-BASS
+74 74 THIS-BASS
+75 75 ANGEL-BASS
+76 76 BEST-BASS
+77 77 TOGETHER 4
+78 78 KICK
+79 79 SNARE
+80 80 CONGA
+81 81 COWBELL-1
+82 82 COWBELL-2
+83 83 COWBELL-3
+84 84 CABAZA
+85 85 WIND CHIME
+86 86 TM-TAMB
+87 87 TELEPHONE
+88 88 COME-HIT
+89 89 REVERS
+90 90 DEMO DRUMS
+91 91 DEMO BASS
+92 92 DEMO BELL
+93 93 SNARE FILL
+94 94 DEMO HIT
+95 95 DIST GUIT
+96 96 BACKING
+97 97 DEMO SEQ
+98 98 MELODY
+99 99 DEMO E.P
