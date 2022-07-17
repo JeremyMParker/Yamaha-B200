@@ -1,6 +1,7 @@
 # Yamaha B200
  User Bank Sysex and ReaBank file for Reaper
 The Sysex file is for my entire bank of 100 User sounds, most of which are brand new, but some are copies/variations of the factory sounds with the effects reduced or changed. The ReaBank file is for use with Reaper and the ReaControlMIDI VST, which lets you see and call up any of the B200 sounds over MIDI. The voice list is for the Preset sounds, my User sounds, and the RCD1000 ROM voice card. Here is a list of my new sounds:
+
 0 00 Elegant2
 1 01 SoftBrass2
 2 02 WideString2
@@ -101,3 +102,4 @@ The Sysex file is for my entire bank of 100 User sounds, most of which are brand
 97 97 NightMare
 98 98 FM Pluck 2
 99 99 Soft FM
+![Yamaha B200](https://user-images.githubusercontent.com/105607095/179408630-97ac9fe0-765a-43eb-ad49-3665eeda5b48.jpg)
